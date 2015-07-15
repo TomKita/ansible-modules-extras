@@ -141,7 +141,6 @@ def main():
 
     # Default options
     options.append('--no-ansi')
-    options.append('--no-progress')
     options.append('--no-interaction')
 
     options.extend(['--working-dir', os.path.abspath(module.params['working_dir'])])
